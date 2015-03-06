@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Raylene Yung</title>
+		<meta name="description" content="Raylene Yung">
+		<style>
+	
+		a:hover {
+			background-color: #E9F0FF;
+		}
+
+		address {
+			text-align: right;
+			font-size: 80%;
+			padding-bottom: 2em;
+		}
+
+		address a {
+			text-decoration: none;
+			color: black;
+		}
+
+		body {
+			font-family: Cambria, Arial;
+			width: 80%;
+			text-align: center;
+			background-color: #D3E1FF;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 50em;
+			text-align: left;
+		}
+
+		img {
+			border: 0;
+		}
+
+		h1 {
+			margin-bottom: 0em;
+			text-align: right;
+		}
+
+		h2 {
+			margin-bottom: 0.25em;
+			margin-top: 1em;
+		}
+
+		ul {
+			margin-top: 12px;
+		}
+		
+		li {
+			list-style-type: none;
+		}
+
+		.bodybox {
+			background-color: white;
+			padding: 1em 3em 12em 3em;
+			margin-top: 1.5em;
+
+			-moz-border-radius: 1em;
+			-webkit-border-radius: 1em;
+			border-radius: 1em;
+
+			box-shadow: 5px 3px 15px #6989CC;
+			-webkit-box-shadow: 5px 3px 15px #6989CC;
+			-moz-box-shadow: 5px 3px 15px #6989CC;
+		}
+
+		.pusheen {
+			display: block;
+			float: left;
+			padding-right: 20px;
+		}
+		
+		.campingimg {
+			display: block;
+			float: right;
+		}
+		
+		</style>
+	</head>
+
+	<body>
+		<div class="bodybox">
+			<div>
+				<h1>Raylene Yung</h1>
+				<address>
+					<a href="mailto:rayleney@cs.stanford.edu">rayleney@cs.stanford.edu</a>
+				</address>
+				<img class="campingimg" src="{{url_for('static', filename='camping_sunset_small.png')}}">
+			</div>
+			<div>
+				<h2>where to find me</h2>
+				<img class="pusheen" src="{{url_for('static', filename='tiny_travel_pusheen.png')}}">
+				<ul>
+					<li><a href="https://www.facebook.com/raylene" rel="me">facebook</a></li>
+					<li><a href="http://www.linkedin.com/in/rayleney" rel="nofollow">linkedIn</a></li>
+				</ul>
+				<h2>what I've worked on</h2>
+				<img class="pusheen" src="{{url_for('static', filename='tiny_computer_pusheen.png')}}">
+				<ul>
+					<li>facebook: <a href="https://www.facebook.com/notes/facebook/new-views-for-your-home-page/162536657130">news feed</a>, <a href="https://www.facebook.com/notes/facebook-engineering/from-news-feed-to-timeline-qa-with-raylene-yung/10150558606368920">timeline</a>, <a href="#">privacy</a></li>
+					<li>google (intern): <a href="http://gmailblog.blogspot.com/2009/03/new-in-labs-youtube-picasa-flickr-and.html">gmail yelp previews</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
